@@ -1,0 +1,36 @@
+$white:#fff;
+$aquamarine: #7fffd4;
+$color_cape_cod_approx: #404040;
+
+#skip_nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    .shortcuts {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        top: 0;
+        a {
+            top: -500px;
+            position: relative;
+            text-align: center;
+            height: 0;
+            color: $white;
+            font-size: 0.9em;
+            margin: 0 auto;
+            &:hover, &:active, &:focus {
+                top:0;
+                display: block;
+                width: 300px;
+                border-radius: 5px;
+                height: auto;
+                padding: 0.5em;
+                border: 2px solid $aquamarine;
+                background-color: $color_cape_cod_approx;
+            }
+        }
+    }
+}
+

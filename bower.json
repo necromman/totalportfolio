@@ -1,0 +1,20 @@
+{
+  "name": "totalportfolio",
+  "description": "portfolio collection",
+  "main": "index.js",
+  "authors": [
+    "lee <necromman@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/necromman/totalportfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

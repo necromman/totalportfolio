@@ -1,0 +1,19 @@
+{
+  "name": "totalportfolio",
+  "version": "1.0.0",
+  "description": "portfolio collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necromman/totalportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necromman/totalportfolio/issues"
+  },
+  "homepage": "https://github.com/necromman/totalportfolio#readme"
+}
